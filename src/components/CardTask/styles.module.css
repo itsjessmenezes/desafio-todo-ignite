@@ -1,0 +1,44 @@
+.cardTask {
+  background-color: var(--gray-500);
+  display: flex;
+  width: 46rem;
+  margin-bottom: 0.75rem;
+  padding: 16px;
+  align-items: flex-start;
+  justify-content: space-between;
+  border: 1px solid var(--gray-400);
+  border-radius: 8px;
+  color: white;
+}
+
+
+.box {
+  width: 1.5rem;
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+}
+
+.checkbox {
+  width: 1.09rem;
+  height: 1.09rem;
+  border: 1px solid var(--blue);
+  border-radius: 10px;
+
+  color: var(--gray-100);
+  font-size: 0.875rem;
+  line-height: 1.225rem;
+}
+
+.textTask {
+  flex: 2;
+  max-width: 39rem;
+}
+
+.lineThrough {
+  color: var(--gray-300);
+  text-decoration: line-through;
+}
